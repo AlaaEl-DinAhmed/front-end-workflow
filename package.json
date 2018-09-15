@@ -1,0 +1,34 @@
+{
+  "name": "front-end-workflow",
+  "version": "1.0.0",
+  "description": "my workflow on projects related to front end development",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulpfile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alaa El-Din Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "browser-sync": "^2.24.7",
+    "eslint": "^5.5.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^5.0.1",
+    "postcss-dir-pseudo-class": "^4.0.0"
+  },
+  "dependencies": {
+    "cssnano": "^4.1.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-livereload": "^4.0.0",
+    "gulp-plumber": "^1.2.0",
+    "postcss-combine-duplicated-selectors": "^6.0.2",
+    "postcss-logical": "^1.1.1",
+    "postcss-nested": "^4.1.0"
+  }
+}

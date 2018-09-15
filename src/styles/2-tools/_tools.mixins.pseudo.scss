@@ -1,0 +1,11 @@
+@mixin pseudo($position, $top, $left, $bottom, $right) {
+
+    @if $position == pseudo {
+        content: "";
+        position: absolute;
+        top: $top;
+        left: $left;
+        bottom: $bottom;
+        right: $right;
+    }
+}

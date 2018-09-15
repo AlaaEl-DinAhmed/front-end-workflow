@@ -1,0 +1,9 @@
+//font-family
+@mixin main-font() {
+    font-family: $main-Font;
+}
+
+//font-sizes
+@mixin font-size($fs) {
+    font-size: $fs
+}

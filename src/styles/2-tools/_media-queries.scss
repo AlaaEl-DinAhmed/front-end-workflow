@@ -1,0 +1,22 @@
+@mixin media ($screen) {
+    @if $screen == 'large-screen' {
+        @media screen and (max-width: $breakpoint-large-screen) {
+            @content
+        }
+    };
+    @if $screen == 'medium-screen' {
+        @media screen and (max-width: $breakpoint-medium-screen) {
+            @content
+        }
+    };
+    @if $screen == 'small-screen' {
+        @media screen and (max-width: $breakpoint-small-screen) {
+            @content
+        }
+    };
+    @if $screen == 'extra-small-screen' {
+        @media screen and (max-width: $breakpoint-extra-small-screen) {
+            @content
+        }
+    }
+}

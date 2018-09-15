@@ -1,0 +1,37 @@
+.o-container{
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+.o-container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+.o-cf{
+    clear: both;
+}
+
+
+@media screen and (min-width: $breakpoint-small-screen) {
+    .o-container{
+        max-width: 540px; 
+    }
+}
+@media screen and (min-width: $breakpoint-medium-screen) {
+    .o-container{
+        max-width: 720px; 
+    }
+}
+@media screen and (min-width: $breakpoint-large-screen) {
+    .o-container{
+        max-width: 960px; 
+    }
+
+}
+@media screen and (min-width: $breakpoint-extra-large-screen) {
+    .o-container{
+        max-width: 1140px; 
+    }
+}
