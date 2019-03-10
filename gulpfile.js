@@ -26,7 +26,9 @@ const plugins = [
     combineSelectors(),
     cssnano()
 ]
-
+/*
+Create localserver
+*/
 gulp.task('browserSync', () => {
     browserSync.init({
         server: {
@@ -60,7 +62,8 @@ gulp.task('styles', () => {
 gulp.task('js', () => {
     return gulp.src('src/scripts/*.js')
         .pipe(babel({
-            presets: ['@babel/env']
+            presets: ['@babel/env', 'minify'],
+            comments: false
         }))
         .pipe(gulp.dest('build/scripts/'))
 });
